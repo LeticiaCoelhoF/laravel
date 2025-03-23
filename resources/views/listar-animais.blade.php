@@ -1,3 +1,114 @@
+@extends('_partials/main')
+
+@section('conteudo')
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Adote um Amigo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Animais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="container">
+        <h1>Animais para Adoção</h1>
+        <p class="lead">Encontre seu novo melhor amigo!</p>
+      </div>
+    </section>
+
+    <!-- Animals List Section -->
+    <section class="container my-5">
+      <div class="row">
+        <!-- Animal 1 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR4gmkPjM0gi106-GoCiTauU4wR9sQS_uE8cngtL8Xx7tszbgmL88JsJVPf7okkb2HbEJFolmRuilnDGlF3r4b4f2a5k3oCzRi4RONLNFM" class="card-img-top" alt="Rex">
+            <div class="card-body">
+              <h5 class="card-title">Rex</h5>
+              <p class="card-text">Rex é um cachorro muito brincalhão e cheio de energia. Ele adora crianças e outros animais.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <!-- Animal 2 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://preview.redd.it/a-gata-mais-linda-do-mundo-v0-l8dmji653rvb1.jpg?width=640&crop=smart&auto=webp&s=c2628e844c770d049068d8e753be15f6c7c1e0d3" class="card-img-top" alt="Mimi">
+            <div class="card-body">
+              <h5 class="card-title">Mimi</h5>
+              <p class="card-text">Mimi é uma gatinha muito carinhosa e tranquila. Ela adora um colo e um lugar quentinho para dormir.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <!-- Animal 3 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://img.olx.com.br/images/35/351434005600823.jpg" class="card-img-top" alt="Bolinha">
+            <div class="card-body">
+              <h5 class="card-title">Bolinha</h5>
+              <p class="card-text">Bolinha é um coelho muito dócil e curioso. Ele adora explorar novos ambientes e brincar com brinquedos.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <!-- Animal 4 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://amoraospets.com/wp-content/uploads/2019/02/melhor-rac%CC%A7a%CC%83o-para-cane-corso.jpg" class="card-img-top" alt="Thor">
+            <div class="card-body">
+              <h5 class="card-title">Thor</h5>
+              <p class="card-text">Thor é um cachorro grande e protetor. Ele é ideal para famílias que buscam um guardião leal.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <!-- Animal 5 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://img.odcdn.com.br/cdn-cgi/image/width=1200,height=1200,fit=cover/wp-content/uploads/2022/05/shutterstock_gata-tricolor-femea.jpg" class="card-img-top" alt="Luna">
+            <div class="card-body">
+              <h5 class="card-title">Luna</h5>
+              <p class="card-text">Luna é uma gata muito independente e curiosa. Ela adora explorar e brincar com arranhadores.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <!-- Animal 6 -->
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUu22vJPSEt5zW4r8aixzbFDxWNDsFOQa7aQ&s" class="card-img-top" alt="Pipoca">
+            <div class="card-body">
+              <h5 class="card-title">Pipoca</h5>
+              <p class="card-text">Pipoca é um hamster muito ativo e brincalhão. Ele adora correr em sua rodinha e comer sementes.</p>
+              <a href="#" class="btn btn-primary">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    @endsection
+
 <!doctype html>
 <html lang="pt-br">
   <head>
@@ -48,111 +159,7 @@
     </style>
   </head>
   <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Adote um Amigo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Início</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Animais</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero-section">
-      <div class="container">
-        <h1>Animais para Adoção</h1>
-        <p class="lead">Encontre seu novo melhor amigo!</p>
-      </div>
-    </section>
-
-    <!-- Animals List Section -->
-    <section class="container my-5">
-      <div class="row">
-        <!-- Animal 1 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Rex">
-            <div class="card-body">
-              <h5 class="card-title">Rex</h5>
-              <p class="card-text">Rex é um cachorro muito brincalhão e cheio de energia. Ele adora crianças e outros animais.</p>
-              <a href="#" class="btn btn-primary">Saiba Mais</a>
-            </div>
-          </div>
-        </div>
-        <!-- Animal 2 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Mimi">
-            <div class="card-body">
-              <h5 class="card-title">Mimi</h5>
-              <p class="card-text">Mimi é uma gatinha muito carinhosa e tranquila. Ela adora um colo e um lugar quentinho para dormir.</p>
-              <a href="#" class="btn btn-primary">Saiba Mais</a>
-            </div>
-          </div>
-        </div>
-        <!-- Animal 3 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Bolinha">
-            <div class="card-body">
-              <h5 class="card-title">Bolinha</h5>
-              <p class="card-text">Bolinha é um coelho muito dócil e curioso. Ele adora explorar novos ambientes e brincar com brinquedos.</p>
-              <a href="#" class="btn btn-primary">Saiba Mais</a>
-            </div>
-          </div>
-        </div>
-        <!-- Animal 4 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Thor">
-            <div class="card-body">
-              <h5 class="card-title">Thor</h5>
-              <p class="card-text">Thor é um cachorro grande e protetor. Ele é ideal para famílias que buscam um guardião leal.</p>
-              <a href="#" class="btn btn-primary">Saiba Mais</a>
-            </div>
-          </div>
-        </div>
-        <!-- Animal 5 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Luna">
-            <div class="card-body">
-              <h5 class="card-title">Luna</h5>
-              <p class="card-text">Luna é uma gata muito independente e curiosa. Ela adora explorar e brincar com arranhadores.</p>
-              <a href="#" class="btn btn-primary">Saiba Mais</a>
-            </div>
-          </div>
-        </div>
-        <!-- Animal 6 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Pipoca">
-            <div class="card-body">
-              <h5 class="card-title">Pipoca</h5>
-              <p class="card-text">Pipoca é um hamster muito ativo e brincalhão. Ele adora correr em sua rodinha e comer sementes.</p>
-              <a href="#" class="btn btn-primary">Saiba Mais</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <!-- Footer -->
     <footer class="footer">

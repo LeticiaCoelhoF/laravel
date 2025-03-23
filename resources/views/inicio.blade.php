@@ -39,7 +39,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Cachorro">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR4gmkPjM0gi106-GoCiTauU4wR9sQS_uE8cngtL8Xx7tszbgmL88JsJVPf7okkb2HbEJFolmRuilnDGlF3r4b4f2a5k3oCzRi4RONLNFM" class="card-img-top" alt="Cachorro">
             <div class="card-body">
               <h5 class="card-title">Rex</h5>
               <p class="card-text">Rex é um cachorro muito brincalhão e cheio de energia. Ele adora crianças e outros animais.</p>
@@ -49,7 +49,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Gato">
+            <img src="https://preview.redd.it/a-gata-mais-linda-do-mundo-v0-l8dmji653rvb1.jpg?width=640&crop=smart&auto=webp&s=c2628e844c770d049068d8e753be15f6c7c1e0d3" class="card-img-top" alt="Gato">
             <div class="card-body">
               <h5 class="card-title">Mimi</h5>
               <p class="card-text">Mimi é uma gatinha muito carinhosa e tranquila. Ela adora um colo e um lugar quentinho para dormir.</p>
@@ -59,7 +59,7 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/300" class="card-img-top" alt="Coelho">
+            <img src="https://img.olx.com.br/images/35/351434005600823.jpg" class="card-img-top" alt="Coelho">
             <div class="card-body">
               <h5 class="card-title">Bolinha</h5>
               <p class="card-text">Bolinha é um coelho muito dócil e curioso. Ele adora explorar novos ambientes e brincar com brinquedos.</p>
