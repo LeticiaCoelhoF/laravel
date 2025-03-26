@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
   </head>
   <body>
+
+    @include('_partials/menu')
     @yield('conteudo');
+
+    
     <footer class="footer">
       <div class="container">
         <p>&copy; 2023 Adote um Amigo. Todos os direitos reservados.</p>

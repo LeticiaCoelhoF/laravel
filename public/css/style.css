@@ -70,3 +70,159 @@
         bottom: 0;
         width: 100%;
       }
+      
+
+      /* registro */
+      .navbar {
+        background-color: #003547;
+      }
+      .navbar-brand, .nav-link {
+        color: #C2BB00 !important;
+      }
+      .register-section {
+        background-color: #005E54;
+        color: white;
+        padding: 50px;
+        border-radius: 10px;
+        margin-top: 100px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .btn-primary {
+        background-color: #E1523D;
+        border-color: #E1523D;
+      }
+      .btn-primary:hover {
+        background-color: #ED8B16;
+        border-color: #ED8B16;
+      }
+      .form-control:focus {
+        border-color: #C2BB00;
+        box-shadow: 0 0 5px rgba(194, 187, 0, 0.5);
+      }
+      .footer {
+        background-color: #003547;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* login */
+      .navbar {
+        background-color: #003547;
+      }
+      .navbar-brand, .nav-link {
+        color: #C2BB00 !important;
+      }
+      .login-section {
+        background-color: #005E54;
+        color: white;
+        padding: 50px;
+        border-radius: 10px;
+        margin-top: 100px;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .btn-primary {
+        background-color: #E1523D;
+        border-color: #E1523D;
+      }
+      .btn-primary:hover {
+        background-color: #ED8B16;
+        border-color: #ED8B16;
+      }
+      .form-control:focus {
+        border-color: #C2BB00;
+        box-shadow: 0 0 5px rgba(194, 187, 0, 0.5);
+      }
+      .footer {
+        background-color: #003547;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* adoção */
+    
+      .navbar {
+        background-color: #003547;
+      }
+      .navbar-brand, .nav-link {
+        color: #C2BB00 !important;
+      }
+      .adoption-section {
+        background-color: #005E54;
+        color: white;
+        padding: 50px;
+        border-radius: 10px;
+        margin-top: 100px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .btn-primary {
+        background-color: #E1523D;
+        border-color: #E1523D;
+      }
+      .btn-primary:hover {
+        background-color: #ED8B16;
+        border-color: #ED8B16;
+      }
+      .form-control:focus {
+        border-color: #C2BB00;
+        box-shadow: 0 0 5px rgba(194, 187, 0, 0.5);
+      }
+      .footer {
+        background-color: #003547;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* listar animais */
+      .navbar {
+        background-color: #003547;
+      }
+      .navbar-brand, .nav-link {
+        color: #C2BB00 !important;
+      }
+      .hero-section {
+        background-color: #005E54;
+        color: white;
+        padding: 60px 0;
+        text-align: center;
+      }
+      .btn-primary {
+        background-color: #E1523D;
+        border-color: #E1523D;
+      }
+      .btn-primary:hover {
+        background-color: #ED8B16;
+        border-color: #ED8B16;
+      }
+      .card {
+        margin-bottom: 20px;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+      .footer {
+        background-color: #003547;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+      }

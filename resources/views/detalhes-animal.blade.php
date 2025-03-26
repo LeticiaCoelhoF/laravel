@@ -1,31 +1,6 @@
 @extends('_partials/main')
 
 @section('conteudo')
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Adote um Amigo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Início</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Animais</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
 
     <!-- Animal Details Section -->
     <div class="container">
@@ -55,43 +30,7 @@
     <title>Detalhes do Animal</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #f8f9fa;
-      }
-      .navbar {
-        background-color: #003547;
-      }
-      .navbar-brand, .nav-link {
-        color: #C2BB00 !important;
-      }
-      .animal-details-section {
-        background-color: #005E54;
-        color: white;
-        padding: 50px;
-        border-radius: 10px;
-        margin-top: 100px;
-        max-width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .btn-primary {
-        background-color: #E1523D;
-        border-color: #E1523D;
-      }
-      .btn-primary:hover {
-        background-color: #ED8B16;
-        border-color: #ED8B16;
-      }
-      .footer {
-        background-color: #003547;
-        color: white;
-        padding: 20px 0;
-        text-align: center;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-      }
+    
     </style>
   </head>
   <body>

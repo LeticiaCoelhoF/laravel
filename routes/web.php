@@ -24,6 +24,8 @@ Route::get('/animais', [App\Http\Controllers\Animais::class, 'animais'])->name('
 Route::get('/login', [App\Http\Controllers\Login::class, 'login'])->name('pagina-inicial');
 Route::get('/detalhesAnimal', [App\Http\Controllers\DetalhesAnimal::class, 'detalhesAnimal'])->name('detalhesAnimal');
 Route::get('/listarAnimais', [App\Http\Controllers\ListarAnimais::class, 'listarAnimal'])->name('listar-animais');
+
 Route::get('/registro', [App\Http\Controllers\Registro::class, 'registro'])->name('registro');
+Route::post('/registro', [App\Http\Controllers\Registro::class, 'criarConta'])->name('registro');
 
 
