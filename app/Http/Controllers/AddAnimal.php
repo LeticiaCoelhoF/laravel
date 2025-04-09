@@ -3,11 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Ppp\Models\Animal;
 
-class AddAnimal extends Controller
+class Animal extends Controller
 {
-    function addAnimal(){
-        return view ('add-animal');
+    //camelCase
+    function animal(){
+        return view ('animal');
+    }
+
+    function inserir(Request $request){
+        $animal = new Animal();
+        $animal -> create($request->all());
+
     }
 }
-
